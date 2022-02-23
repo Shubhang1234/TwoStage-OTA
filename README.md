@@ -3,7 +3,7 @@ This repository contains information about Double stage Operational Trnasconduct
 # Table of Contents
 1) [Abstract](https://github.com/Shubhang1234/TwoStage-OTA/edit/main/README.md#abstract) <br />
 2) [Introduction](https://github.com/Shubhang1234/TwoStage-OTA/edit/main/README.md#introduction-) <br />
-3) [Refrence Circuit Details & Circuit Diagram](https://github.com/Shubhang1234/TwoStage-OTA/edit/main/README.md#refrence-circuit-details-) <br /> 
+3) [Refrence Circuit Details & Circuit Diagram](https://github.com/Shubhang1234/TwoStage-OTA/edit/main/README.md#refrence-circuit-details--circuit-diagram-) <br /> 
 4) [Refrence Circuit Waveform](https://github.com/Shubhang1234/TwoStage-OTA/edit/main/README.md#introduction-) <br />
 5) [Actual Simulation Stimuli](https://github.com/Shubhang1234/TwoStage-OTA/edit/main/README.md#actual-simulation-stimuli-) <br />
 6) [Schematic Netlist](https://github.com/Shubhang1234/TwoStage-OTA/edit/main/README.md#schematic-netlist-) <br />
@@ -12,13 +12,12 @@ This repository contains information about Double stage Operational Trnasconduct
 9) [Author](https://github.com/Shubhang1234/TwoStage-OTA/edit/main/README.md#author-) <br />
 10) [Acknowledgements](https://github.com/Shubhang1234/TwoStage-OTA/edit/main/README.md#acknowledgements-) <br />
 11) [References](https://github.com/Shubhang1234/TwoStage-OTA/edit/main/README.md#references-) <br />
-## Abstract
+## Abstract <br />
 ## Introduction <br />
 ## Refrence Circuit Details & Circuit Diagram <br />
 ![image](https://user-images.githubusercontent.com/56774313/155373573-14cedc3a-13c6-45fe-821e-bdb5b2cd07dd.png)
 ## Refrence Circuit Waveform <br />
 ![image](https://user-images.githubusercontent.com/56774313/155373852-d32fa98b-4f78-4053-9e01-09aa18b6a138.png)
-
 ## Actual Simulation Stimuli <br />
 ## Schematic Netlist <br />
 ## Simulated actual waveforms <br />

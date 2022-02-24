@@ -21,17 +21,21 @@ Here a double stage operational transconductance amplifier is designed and simul
 The [Synopsys Custom Compiler™](https://www.synopsys.com) design environment is a modern solution for full-custom analog, custom digital, and mixed-signal IC design. As the heart of the Synopsys Custom Design Platform, Custom Compiler provides design entry, simulation management and analysis, and custom layout editing features. It delivers industry-leading productivity, performance, and ease-of-use while remaining easy to adopt for users of legacy tools.
 ## Refrence Circuit Details & Circuit Diagram <br />
 ![image](https://user-images.githubusercontent.com/56774313/155373573-14cedc3a-13c6-45fe-821e-bdb5b2cd07dd.png)
+Fig 1: Refrence Circuit Design of Proposed Circuit
 ## Refrence Circuit Waveform <br />
 ![image](https://user-images.githubusercontent.com/56774313/155373852-d32fa98b-4f78-4053-9e01-09aa18b6a138.png) <br />
+Fig 2: Refrence Circuit Waveform of Proposed Circuit
 ## Actual Simulation Stimuli <br />
 Input common mode voltage-->0.3 V <br />
-Small signal AC fluctuation-->![MergedImages](https://user-images.githubusercontent.com/56774313/155460689-fc33f329-06f1-4d11-811d-5864c1810580.png) <br />
+Fig 3: Small signal AC fluctuation-->![MergedImages](https://user-images.githubusercontent.com/56774313/155460689-fc33f329-06f1-4d11-811d-5864c1810580.png) <br />
 vin+(L) & vin-(R)
 ## Schematic <br />
 ![ckt_design](https://user-images.githubusercontent.com/56774313/155382191-6a6a4f65-16eb-44a4-ab8e-7a7f831f83ba.png)
+Fig 4: Actual Schematic of Proposed Design
 ## Netlist <br />
 ## Simulated actual waveforms <br />
 ![BODEPLOT](https://user-images.githubusercontent.com/56774313/155464974-f0aa7c86-77f1-41d7-88f1-8ec2c4e6faee.png)
+Fig 5: Actual Obtained Bode Gain & Phase Plot of the design <br />
 Obtained BODE PLOT indicates a DC Gain of ~53dB and Phase Margin of ~63.5° <br />
 *Side note-->By proper miller compensation this ampifier is best suited for audio signal amplification purposes.
 ## Observations <br />
@@ -53,7 +57,7 @@ Indian Institute of Technology Jammu <br />
 ## Acknowledgements <br />
 I would like to give my sincere thanks to undermentioned Organization/Persons for their invaluable guidance and software support which enabled me to participate and learn a lot from this Hackathon:
 1) [Synopsys Team](https://www.synopsys.com)
-2) Kunal Ghosh, Co-founder, VSD Corp. Pvt. Ltd.
+2) Kunal Ghosh, Co-founder, [VSD Corp. Pvt. Ltd.](https://www.vlsisystemdesign.com)
 3) Chinmay Panda, IIT Hyderabad
 4) Sumanto Kar, IIT Bombay
 5) Sameer Durgoji, NIT Karnataka

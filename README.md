@@ -39,7 +39,7 @@ A breif contrast between targeted and actual specifications is mentioned below:
 | Specifications        | Targeted       | Actual     | Result  |
 | --------------------- |:--------------:| -------:   | :------:|      
 | DC Gain               | ~50dB          |   53.5 dB  | PASS    |  
-| GBW                   | >100kHz        |   4.11 M   | PASS    |  
+| GBW                   | >100kHz        |   4.11 MHz | PASS    |  
 | Supply Voltage        | ~1V            |   1V       | PASS    |  
 | Power Consumption     | <100µW         |   17.37 µW | PASS    |  
 | Phase Margin          | ~60°           |   63.5°    | PASS    |  

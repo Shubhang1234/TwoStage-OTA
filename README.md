@@ -3,18 +3,21 @@ This repository contains information about Double stage Operational Trnasconduct
 # Table of Contents
 1) [Abstract](https://github.com/Shubhang1234/TwoStage-OTA/edit/main/README.md#abstract-) <br />
 2) [Introduction](https://github.com/Shubhang1234/TwoStage-OTA/edit/main/README.md#introduction-) <br />
-3) [Refrence Circuit Details & Circuit Diagram](https://github.com/Shubhang1234/TwoStage-OTA/edit/main/README.md#refrence-circuit-details--circuit-diagram-) <br /> 
-4) [Refrence Circuit Waveform](https://github.com/Shubhang1234/TwoStage-OTA/edit/main/README.md#refrence-circuit-waveform-) <br />
-5) [Actual Simulation Stimuli](https://github.com/Shubhang1234/TwoStage-OTA/edit/main/README.md#actual-simulation-stimuli-) <br />
-6) [Schematic](https://github.com/Shubhang1234/TwoStage-OTA/edit/main/README.md#schematic-) <br />
-7) [Netlist](https://github.com/Shubhang1234/TwoStage-OTA/edit/main/README.md#netlist-) <br />
-8) [Simulated actual waveforms](https://github.com/Shubhang1234/TwoStage-OTA/edit/main/README.md#simulated-actual-waveforms-) <br />
-9) [Observations](https://github.com/Shubhang1234/TwoStage-OTA/edit/main/README.md#observations-) <br />
-10) [Author](https://github.com/Shubhang1234/TwoStage-OTA/edit/main/README.md#author-) <br />
-11) [Acknowledgements](https://github.com/Shubhang1234/TwoStage-OTA/edit/main/README.md#acknowledgements-) <br />
-12) [References](https://github.com/Shubhang1234/TwoStage-OTA/edit/main/README.md#references-) <br />
+3) [Synopsys Custom Compiler Tool](https://github.com/Shubhang1234/TwoStage-OTA/edit/main/README.md#synopsys-custom-compiler-tool)
+4) [Refrence Circuit Details & Circuit Diagram](https://github.com/Shubhang1234/TwoStage-OTA/edit/main/README.md#refrence-circuit-details--circuit-diagram-) <br /> 
+5) [Refrence Circuit Waveform](https://github.com/Shubhang1234/TwoStage-OTA/edit/main/README.md#refrence-circuit-waveform-) <br />
+6) [Actual Simulation Stimuli](https://github.com/Shubhang1234/TwoStage-OTA/edit/main/README.md#actual-simulation-stimuli-) <br />
+7) [Schematic](https://github.com/Shubhang1234/TwoStage-OTA/edit/main/README.md#schematic-) <br />
+8) [Netlist](https://github.com/Shubhang1234/TwoStage-OTA/edit/main/README.md#netlist-) <br />
+9) [Simulated actual waveforms](https://github.com/Shubhang1234/TwoStage-OTA/edit/main/README.md#simulated-actual-waveforms-) <br />
+10) [Observations](https://github.com/Shubhang1234/TwoStage-OTA/edit/main/README.md#observations-) <br />
+11) [Author](https://github.com/Shubhang1234/TwoStage-OTA/edit/main/README.md#author-) <br />
+12) [Acknowledgements](https://github.com/Shubhang1234/TwoStage-OTA/edit/main/README.md#acknowledgements-) <br />
+13) [References](https://github.com/Shubhang1234/TwoStage-OTA/edit/main/README.md#references-) <br />
 ## Abstract <br />
 ## Introduction <br />
+## Synopsys Custom Compiler Tool
+The [Synopsys Custom Compiler™](https://www.synopsys.com) design environment is a modern solution for full-custom analog, custom digital, and mixed-signal IC design. As the heart of the Synopsys Custom Design Platform, Custom Compiler provides design entry, simulation management and analysis, and custom layout editing features. It delivers industry-leading productivity, performance, and ease-of-use while remaining easy to adopt for users of legacy tools.
 ## Refrence Circuit Details & Circuit Diagram <br />
 ![image](https://user-images.githubusercontent.com/56774313/155373573-14cedc3a-13c6-45fe-821e-bdb5b2cd07dd.png)
 ## Refrence Circuit Waveform <br />

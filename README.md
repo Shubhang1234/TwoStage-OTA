@@ -30,6 +30,23 @@ vin+(L) & vin-(R)
 ![BODEPLOT](https://user-images.githubusercontent.com/56774313/155464974-f0aa7c86-77f1-41d7-88f1-8ec2c4e6faee.png)
 Obtained BODE PLOT indicates a DC Gain of ~53dB and Phase Margin of ~63.5°
 ## Observations <br />
+A breif contrast between targeted and actual specifications is mentioned below:
+| Specifications        | Targeted           | Actual     | Result  |
+| --------------------- |:------------------:| -------:   | :------:|      
+| DC Gain               | right-aligned      | $1600      | PASS    |  
+| GBW                   | centered           |   $12      | PASS    |  
+| Supply Voltage        | are neat           |   17.37 µW | PASS    |  
+| Power Consumption     | are neat           |   17.37 µW | PASS    |  
+| Phase Margin          | are neat           |   17.37 µW | PASS    |  
+| Slew rate             | are neat           |   17.37 µW | PASS    |  
+| Power Consumption     | are neat           |   17.37 µW | PASS    |  
+
+DC Gain (dB) ~50dB
+ GBW > 100KHz
+ Supply Voltage ~1V
+ Power consumption < 100μW
+ Phase Margin ~60o
+ Slew Rate (SR) >0.1 V/μs
 ## Author <br />
 ## Acknowledgements <br />
 I would like to give my sincere thanks to undermentioned Organization/Persons for their invaluable guidance and software support which enabled me to participate and learn a lot from this Hackathon:

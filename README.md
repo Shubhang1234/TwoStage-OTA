@@ -33,9 +33,11 @@ vin+(L) & vin-(R)
 ![ckt_design](https://user-images.githubusercontent.com/56774313/155382191-6a6a4f65-16eb-44a4-ab8e-7a7f831f83ba.png)
 Fig 4: Actual Schematic of Proposed Design
 ## Netlist <br />
+![image](https://user-images.githubusercontent.com/56774313/155613671-c956b79c-d953-4ee1-80de-1dd15a90014a.png) <br />
+Fig 5: Generated Netlist
 ## Simulated actual waveforms <br />
 ![BODEPLOT](https://user-images.githubusercontent.com/56774313/155464974-f0aa7c86-77f1-41d7-88f1-8ec2c4e6faee.png)
-Fig 5: Actual Obtained Bode Gain & Phase Plot of the design <br />
+Fig 6: Actual Obtained Bode Gain & Phase Plot of the design <br />
 Obtained BODE PLOT indicates a DC Gain of ~53dB and Phase Margin of ~63.5° <br />
 *Side note-->By proper miller compensation this ampifier is best suited for audio signal amplification purposes.
 ## Observations <br />

@@ -4,7 +4,7 @@ This repository contains information about Double stage Operational Trnasconduct
 1) [Abstract](https://github.com/Shubhang1234/TwoStage-OTA/edit/main/README.md#abstract) <br />
 2) [Introduction](https://github.com/Shubhang1234/TwoStage-OTA/edit/main/README.md#introduction-) <br />
 3) [Refrence Circuit Details & Circuit Diagram](https://github.com/Shubhang1234/TwoStage-OTA/edit/main/README.md#refrence-circuit-details--circuit-diagram-) <br /> 
-4) [Refrence Circuit Waveform](https://github.com/Shubhang1234/TwoStage-OTA/edit/main/README.md#introduction-) <br />
+4) [Refrence Circuit Waveform](https://github.com/Shubhang1234/TwoStage-OTA/edit/main/README.md#refrence-circuit-waveform-) <br />
 5) [Actual Simulation Stimuli](https://github.com/Shubhang1234/TwoStage-OTA/edit/main/README.md#actual-simulation-stimuli-) <br />
 6) [Schematic](https://github.com/Shubhang1234/TwoStage-OTA/edit/main/README.md#schematic-) <br />
 7) [Netlist](https://github.com/Shubhang1234/TwoStage-OTA/edit/main/README.md#netlist-) <br />
@@ -20,11 +20,54 @@ This repository contains information about Double stage Operational Trnasconduct
 ## Refrence Circuit Waveform <br />
 ![image](https://user-images.githubusercontent.com/56774313/155373852-d32fa98b-4f78-4053-9e01-09aa18b6a138.png)
 ## Actual Simulation Stimuli <br />
+Input common mode voltage-->0.3 V
+Small signal AC fluctuation-->![MergedImages](https://user-images.githubusercontent.com/56774313/155460689-fc33f329-06f1-4d11-811d-5864c1810580.png) <br />
+vin+(L) & vin-(R)
 ## Schematic <br />
 ![ckt_design](https://user-images.githubusercontent.com/56774313/155382191-6a6a4f65-16eb-44a4-ab8e-7a7f831f83ba.png)
 ## Netlist <br />
 ## Simulated actual waveforms <br />
+![BODEPLOT](https://user-images.githubusercontent.com/56774313/155464974-f0aa7c86-77f1-41d7-88f1-8ec2c4e6faee.png)
+Obtained BODE PLOT indicates a DC Gain of ~53dB and Phase Margin of ~63.5°
 ## Observations <br />
 ## Author <br />
 ## Acknowledgements <br />
+I would like to give my sincere thanks to undermentioned Organization/Persons for their invaluable guidance and software support which enabled me to participate and learn a lot from this Hackathon:
+1) [Synopsys Team](https://www.synopsys.com)
+2) Kunal Ghosh, Co-founder, VSD Corp. Pvt. Ltd.
+3) Chinmay Panda, IIT Hyderabad
+4) Sumanto Kar, IIT Bombay
+5) Sameer Durgoji, NIT Karnataka
+
 ## References <br />
+[1] Z. Yan, C. Zhang and M. Wang, "Low-Voltage Bandgap Reference 
+Circuit in 28nm CMOS," 2018 IEEE Asia Pacific Conference on 
+Circuits and Systems (APCCAS), 2018, pp. 14-17, doi: 
+10.1109/APCCAS.2018.8605676.J. Clerk Maxwell, A Treatise on 
+Electricity and Magnetism, 3rd ed., vol. 2. Oxford: Clarendon, 1892, 
+pp.68–73.<br />
+[2] M. H. Hamzah, A. B. Jambek and U. Hashim, "Design and analysis of 
+a two-stage CMOS op-amp using Silterra's 0.13 μm technology," 
+2014 IEEE Symposium on Computer Applications and Industrial 
+Electronics (ISCAIE), 2014, pp. 55-59, doi: 
+10.1109/ISCAIE.2014.7010209. <br />
+[3] R. Nagulapalli, K. Hayatleh, S. Barker, B. N. K. Reddy and B. 
+Seetharamulu, "A Low Power Miller Compensation Technique for 
+Two Stage Op-amp in 65nm CMOS Technology," 2019 10th 
+International Conference on Computing, Communication and 
+Networking Technologies (ICCCNT), 2019, pp. 1-5, doi: 
+10.1109/ICCCNT45670.2019.8944553. <br />
+[4] M. P. Sarma, N. Kalita and N. E. Mastorakis, "Design of an low 
+power miller compensated two stage OP-AMP using 45 nm 
+technology for high data rate communication," 2017 4th International 
+Conference on Signal Processing and Integrated Networks (SPIN), 
+2017, pp. 463-467, doi: 10.1109/SPIN.2017.8049994. <br />
+[5] E. Kargaran, H. Khosrowjerdi and K. Ghaffarzadegan, "A 1.5 v High 
+Swing Ultra-Low-Power Two Stage CMOS OP-AMP in 0.18 µm 
+Technology," 2010 2nd International Conference on Mechanical and 
+Electronics Engineering, 2010, pp. V1-68-V1-71, doi: 
+10.1109/ICMEE.2010.5558594. <br />
+[6] A. Boni, "Op-amps and startup circuits for CMOS bandgap references 
+with near 1-V supply," in IEEE Journal of Solid-State Circuits, vol. 
+37, no. 10, pp. 1339-1343, Oct. 2002, doi: 
+10.1109/JSSC.2002.803055. <br />

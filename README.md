@@ -1,7 +1,7 @@
 # TwoStage-OTA@28nm_IITH_HACKATHON
 This repository contains information about Double stage Operational Trnasconductance amplifier implemented on Synopsys Custom Compiler on 28nm technology node.
 # Table of Contents
-1) [Abstract](https://github.com/Shubhang1234/TwoStage-OTA/edit/main/README.md#abstract) <br />
+1) [Abstract](https://github.com/Shubhang1234/TwoStage-OTA/edit/main/README.md#abstract-) <br />
 2) [Introduction](https://github.com/Shubhang1234/TwoStage-OTA/edit/main/README.md#introduction-) <br />
 3) [Refrence Circuit Details & Circuit Diagram](https://github.com/Shubhang1234/TwoStage-OTA/edit/main/README.md#refrence-circuit-details--circuit-diagram-) <br /> 
 4) [Refrence Circuit Waveform](https://github.com/Shubhang1234/TwoStage-OTA/edit/main/README.md#refrence-circuit-waveform-) <br />
@@ -31,23 +31,21 @@ vin+(L) & vin-(R)
 Obtained BODE PLOT indicates a DC Gain of ~53dB and Phase Margin of ~63.5°
 ## Observations <br />
 A breif contrast between targeted and actual specifications is mentioned below:
-| Specifications        | Targeted           | Actual     | Result  |
-| --------------------- |:------------------:| -------:   | :------:|      
-| DC Gain               | right-aligned      | $1600      | PASS    |  
-| GBW                   | centered           |   $12      | PASS    |  
-| Supply Voltage        | are neat           |   17.37 µW | PASS    |  
-| Power Consumption     | are neat           |   17.37 µW | PASS    |  
-| Phase Margin          | are neat           |   17.37 µW | PASS    |  
-| Slew rate             | are neat           |   17.37 µW | PASS    |  
-| Power Consumption     | are neat           |   17.37 µW | PASS    |  
+| Specifications        | Targeted       | Actual     | Result  |
+| --------------------- |:--------------:| -------:   | :------:|      
+| DC Gain               | ~50dB          |   53.5 dB  | PASS    |  
+| GBW                   | >100kHz        |   4.11 M   | PASS    |  
+| Supply Voltage        | ~1V            |   1V       | PASS    |  
+| Power Consumption     | <100µW         |   17.37 µW | PASS    |  
+| Phase Margin          | ~60°           |   63.5°    | PASS    |  
+| Slew rate             | >0.1 µV/s      |   >0.1 µV/s| PASS    |  
+| Area                  | <100μm2        |   <100μm2  | PASS    |  
 
-DC Gain (dB) ~50dB
- GBW > 100KHz
- Supply Voltage ~1V
- Power consumption < 100μW
- Phase Margin ~60o
- Slew Rate (SR) >0.1 V/μs
 ## Author <br />
+Shubhang Srivastava <br />
+Student <br />
+Dept of Electrical engineering <br />
+Indian Institute of Technology Jammu <br />
 ## Acknowledgements <br />
 I would like to give my sincere thanks to undermentioned Organization/Persons for their invaluable guidance and software support which enabled me to participate and learn a lot from this Hackathon:
 1) [Synopsys Team](https://www.synopsys.com)
@@ -55,7 +53,6 @@ I would like to give my sincere thanks to undermentioned Organization/Persons fo
 3) Chinmay Panda, IIT Hyderabad
 4) Sumanto Kar, IIT Bombay
 5) Sameer Durgoji, NIT Karnataka
-
 ## References <br />
 [1] Z. Yan, C. Zhang and M. Wang, "Low-Voltage Bandgap Reference 
 Circuit in 28nm CMOS," 2018 IEEE Asia Pacific Conference on 

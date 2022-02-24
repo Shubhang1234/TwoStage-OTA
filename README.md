@@ -58,9 +58,9 @@ Indian Institute of Technology Jammu <br />
 I would like to give my sincere thanks to undermentioned Organization/Persons for their invaluable guidance and software support which enabled me to participate and learn a lot from this Hackathon:
 1) [Synopsys Team](https://www.synopsys.com)
 2) Kunal Ghosh, Co-founder, [VSD Corp. Pvt. Ltd.](https://www.vlsisystemdesign.com)
-3) Chinmay Panda, IIT Hyderabad
-4) Sumanto Kar, IIT Bombay
-5) Sameer Durgoji, NIT Karnataka
+3) Chinmay Panda, [IIT Hyderabad](https://iith.ac.in)
+4) Sumanto Kar, [IIT Bombay](https://www.iitb.ac.in)
+5) Sameer Durgoji, [NIT Karnataka](https://www.nitk.ac.in)
 ## References <br />
 [1] Z. Yan, C. Zhang and M. Wang, "Low-Voltage Bandgap Reference 
 Circuit in 28nm CMOS," 2018 IEEE Asia Pacific Conference on 

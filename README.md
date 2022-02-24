@@ -15,16 +15,16 @@ This repository contains information about Double stage Operational Trnasconduct
 12) [References](https://github.com/Shubhang1234/TwoStage-OTA/edit/main/README.md#references-) <br />
 ## Abstract <br />
 Operational transconductance amplifiers are 
-widely used in various applications like BGRs, VCO, VGA etc.
+widely used in various applications like BGRs, VCO, VGA etc. <br />
 Here a double stage operational transconductance amplifier is designed and simulated on Synopsys custom compiler on 28nm technology node. 
 ## Synopsys Custom Compiler Tool
 The [Synopsys Custom Compiler™](https://www.synopsys.com) design environment is a modern solution for full-custom analog, custom digital, and mixed-signal IC design. As the heart of the Synopsys Custom Design Platform, Custom Compiler provides design entry, simulation management and analysis, and custom layout editing features. It delivers industry-leading productivity, performance, and ease-of-use while remaining easy to adopt for users of legacy tools.
 ## Refrence Circuit Details & Circuit Diagram <br />
 ![image](https://user-images.githubusercontent.com/56774313/155373573-14cedc3a-13c6-45fe-821e-bdb5b2cd07dd.png)
 ## Refrence Circuit Waveform <br />
-![image](https://user-images.githubusercontent.com/56774313/155373852-d32fa98b-4f78-4053-9e01-09aa18b6a138.png)
+![image](https://user-images.githubusercontent.com/56774313/155373852-d32fa98b-4f78-4053-9e01-09aa18b6a138.png) <br />
 ## Actual Simulation Stimuli <br />
-Input common mode voltage-->0.3 V
+Input common mode voltage-->0.3 V <br />
 Small signal AC fluctuation-->![MergedImages](https://user-images.githubusercontent.com/56774313/155460689-fc33f329-06f1-4d11-811d-5864c1810580.png) <br />
 vin+(L) & vin-(R)
 ## Schematic <br />
@@ -32,7 +32,8 @@ vin+(L) & vin-(R)
 ## Netlist <br />
 ## Simulated actual waveforms <br />
 ![BODEPLOT](https://user-images.githubusercontent.com/56774313/155464974-f0aa7c86-77f1-41d7-88f1-8ec2c4e6faee.png)
-Obtained BODE PLOT indicates a DC Gain of ~53dB and Phase Margin of ~63.5°
+Obtained BODE PLOT indicates a DC Gain of ~53dB and Phase Margin of ~63.5° <br />
+*Side note-->By proper miller compensation this ampifier is best suited for audio signal amplification purposes.
 ## Observations <br />
 A breif contrast between targeted and actual specifications is mentioned below:
 | Specifications        | Targeted       | Actual     | Result  |
@@ -44,7 +45,6 @@ A breif contrast between targeted and actual specifications is mentioned below:
 | Phase Margin          | ~60°           |   63.5°    | PASS    |  
 | Slew rate             | >0.1 µV/s      |   >0.1 µV/s| PASS    |  
 | Area                  | <100μm2        |   <100μm2  | PASS    |  
-
 ## Author <br />
 Shubhang Srivastava <br />
 Student <br />

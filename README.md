@@ -5,9 +5,9 @@ This repository contains information about Double stage Operational Trnasconduct
 2) [Synopsys Custom Compiler Tool](https://github.com/Shubhang1234/TwoStage-OTA/edit/main/README.md#synopsys-custom-compiler-tool)
 3) [Refrence Circuit Details & Circuit Diagram](https://github.com/Shubhang1234/TwoStage-OTA/edit/main/README.md#refrence-circuit-details--circuit-diagram-) <br /> 
 4) [Refrence Circuit Waveform](https://github.com/Shubhang1234/TwoStage-OTA/edit/main/README.md#refrence-circuit-waveform-) <br />
-5) [Actual Simulation Stimuli](https://github.com/Shubhang1234/TwoStage-OTA/edit/main/README.md#actual-simulation-stimuli-) <br />
-6) [Schematic](https://github.com/Shubhang1234/TwoStage-OTA/edit/main/README.md#schematic-) <br />
-7) [Netlist](https://github.com/Shubhang1234/TwoStage-OTA/edit/main/README.md#netlist-) <br />
+5) [Schematic](https://github.com/Shubhang1234/TwoStage-OTA/edit/main/README.md#schematic-) <br />
+6) [Netlist](https://github.com/Shubhang1234/TwoStage-OTA/edit/main/README.md#netlist-) <br />
+7) [Actual Simulation Stimuli](https://github.com/Shubhang1234/TwoStage-OTA/edit/main/README.md#actual-simulation-stimuli-) <br />
 8) [Simulated actual waveforms](https://github.com/Shubhang1234/TwoStage-OTA/edit/main/README.md#simulated-actual-waveforms-) <br />
 9) [Observations](https://github.com/Shubhang1234/TwoStage-OTA/edit/main/README.md#observations-) <br />
 10) [Author](https://github.com/Shubhang1234/TwoStage-OTA/edit/main/README.md#author-) <br />
@@ -25,16 +25,16 @@ Fig 1: Refrence Circuit Design of Proposed Circuit
 ## Refrence Circuit Waveform <br />
 ![image](https://user-images.githubusercontent.com/56774313/155373852-d32fa98b-4f78-4053-9e01-09aa18b6a138.png) <br />
 Fig 2: Refrence Circuit Waveform of Proposed Circuit
-## Actual Simulation Stimuli <br />
-Input common mode voltage-->0.3 V <br />
-Fig 3: Small signal AC fluctuation-->![MergedImages](https://user-images.githubusercontent.com/56774313/155460689-fc33f329-06f1-4d11-811d-5864c1810580.png) <br />
-vin+(L) & vin-(R)
 ## Schematic <br />
 ![ckt_design](https://user-images.githubusercontent.com/56774313/155382191-6a6a4f65-16eb-44a4-ab8e-7a7f831f83ba.png)
-Fig 4: Actual Schematic of Proposed Design
+Fig 3: Actual Schematic of Proposed Design
 ## Netlist <br />
 ![image](https://user-images.githubusercontent.com/56774313/155613671-c956b79c-d953-4ee1-80de-1dd15a90014a.png) <br />
-Fig 5: Generated Netlist
+Fig 4: Generated Netlist <br />
+## Actual Simulation Stimuli <br />
+Input common mode voltage-->0.3 V <br />
+Fig 5: Small signal AC fluctuation-->![MergedImages](https://user-images.githubusercontent.com/56774313/155460689-fc33f329-06f1-4d11-811d-5864c1810580.png) <br />
+vin+(L) & vin-(R)
 ## Simulated actual waveforms <br />
 ![BODEPLOT](https://user-images.githubusercontent.com/56774313/155464974-f0aa7c86-77f1-41d7-88f1-8ec2c4e6faee.png)
 Fig 6: Actual Obtained Bode Gain & Phase Plot of the design <br />

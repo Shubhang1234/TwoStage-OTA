@@ -20,8 +20,11 @@ Here a double stage operational transconductance amplifier is designed and simul
 ## Synopsys Custom Compiler Tool
 The [Synopsys Custom Compiler™](https://www.synopsys.com) design environment is a modern solution for full-custom analog, custom digital, and mixed-signal IC design. As the heart of the Synopsys Custom Design Platform, Custom Compiler provides design entry, simulation management and analysis, and custom layout editing features. It delivers industry-leading productivity, performance, and ease-of-use while remaining easy to adopt for users of legacy tools.
 ## Refrence Circuit Details & Circuit Diagram <br />
-![image](https://user-images.githubusercontent.com/56774313/155373573-14cedc3a-13c6-45fe-821e-bdb5b2cd07dd.png)
-Fig 1: Refrence Circuit Design of Proposed Circuit
+The proposed operational transconductance amplifier consists of two stages: <br />
+1) An input differential pair <br />
+2) Common source amplifier stage <br />
+![image](https://user-images.githubusercontent.com/56774313/155373573-14cedc3a-13c6-45fe-821e-bdb5b2cd07dd.png) <br />
+Fig 1: Refrence Circuit Design of Proposed Circuit <br />
 ## Refrence Circuit Waveform <br />
 ![image](https://user-images.githubusercontent.com/56774313/155373852-d32fa98b-4f78-4053-9e01-09aa18b6a138.png) <br />
 Fig 2: Refrence Circuit Waveform of Proposed Circuit

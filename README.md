@@ -37,8 +37,7 @@ Fig 3: Actual Schematic of Proposed Design
 Fig 4: Generated Netlist <br />
 ## Actual Simulation Stimuli <br />
 Input common mode voltage-->0.3 V <br />
-Fig 5: Small signal AC fluctuation-->![MergedImages](https://user-images.githubusercontent.com/56774313/155460689-fc33f329-06f1-4d11-811d-5864c1810580.png) <br />
-vin+(L) & vin-(R)
+Fig 5: Small signal AC fluctuation-->vin+(L) & vin-(R) <br />![MergedImages](https://user-images.githubusercontent.com/56774313/155460689-fc33f329-06f1-4d11-811d-5864c1810580.png) <br />
 ## Simulated actual waveforms <br />
 ![BODEPLOT](https://user-images.githubusercontent.com/56774313/155464974-f0aa7c86-77f1-41d7-88f1-8ec2c4e6faee.png)
 Fig 6: Actual Obtained Bode Gain & Phase Plot of the design <br />

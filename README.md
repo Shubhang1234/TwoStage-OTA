@@ -54,7 +54,7 @@ A breif contrast between targeted and actual specifications is mentioned below:
 | Power Consumption     | <100µW         |   17.37 µW | PASS    |  
 | Phase Margin          | ~60°           |   63.5°    | PASS    |  
 | Slew rate             | >0.1 V/μs      |   ~2 V/μs  | PASS    |  
-| Area                  | <100μm2        |   ~92μm2   | PASS    |  
+| Area (approx)         | <100μm2        |   ~92μm2   | PASS    |  
 ## Author <br />
 Shubhang Srivastava <br />
 Student <br />

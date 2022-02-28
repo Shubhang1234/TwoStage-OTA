@@ -34,31 +34,32 @@ Fig 2: Refrence Circuit Waveform of Proposed Circuit
 Fig 3: Actual Schematic of Proposed Design
 ## Netlist <br />
 ```
-*Custom Compiler Version S-2021.09 
-*Mon Feb 28 04:47:58 2022 
+*Custom Compiler Version S-2021.09
+*Mon Feb 28 04:59:50 2022
 
-.global gnd! 
-******************************************************************************** 
-* Library          : wk_shubhang_ota 
-* Cell             : test1 
-* View             : schematic 
-* View Search List : hspice hspiceD cmos.sch cmos_sch schematic veriloga 
-* View Stop List   : hspice hspiceD veriloga 
-******************************************************************************** 
-.subckt test1 vin+ vin- vout 
-xm24 net6 net6 gnd! gnd! n105 w=3.5u l=500n nf=1 m=1 
-xm26 net3 net6 gnd! gnd! n105 w=3.5u l=500n nf=1 m=1 
-xm27 vout net3 gnd! gnd! n105 w=52.5u l=500n nf=15 m=1 
-xm30 net2 net2 net1 net1 p105 w=12u l=500n nf=4 m=1 
-xm29 net5 net2 net1 net1 p105 w=12u l=500n nf=4 m=1 
-xm28 vout net2 net1 net1 p105 w=77u l=500n nf=22 m=1 
-xm23 net3 vin+ net5 net5 p105 w=12u l=500n nf=4 m=1 
-xm25 net6 vin- net5 net5 p105 w=12u l=500n nf=4 m=1 
-v24 net1 gnd! dc=1 
-i27 net2 gnd! dc=2u 
-c24 vout gnd! c=1p 
-c23 net3 vout c=1p 
-.ends test1 
+.global gnd!
+********************************************************************************
+* Library          : wk_shubhang_ota
+* Cell             : OTA_netlist
+* View             : schematic
+* View Search List : hspice hspiceD cmos.sch cmos_sch schematic veriloga
+* View Stop List   : hspice hspiceD veriloga
+********************************************************************************
+.subckt ota_netlist vin+ vin- vout
+xm24 net5 net5 gnd! gnd! n105 w=3.5u l=500n nf=1 m=1
+xm26 net3 net5 gnd! gnd! n105 w=3.5u l=500n nf=1 m=1
+xm27 vout net3 gnd! gnd! n105 w=52.5u l=500n nf=15 m=1
+xm30 net2 net2 net1 net1 p105 w=12u l=500n nf=4 m=1
+xm29 net4 net2 net1 net1 p105 w=12u l=500n nf=4 m=1
+xm28 vout net2 net1 net1 p105 w=77u l=500n nf=22 m=1
+xm23 net3 vin+ net4 net4 p105 w=12u l=500n nf=4 m=1
+xm25 net5 vin- net4 net4 p105 w=12u l=500n nf=4 m=1
+i27 net2 gnd! dc=2u
+c24 vout gnd! c=1p
+c23 net3 vout c=1p
+v24 net1 gnd! dc=1
+.ends ota_netlist
+ 
 ``` 
 ## Actual Simulation Stimuli <br />
 Input common mode voltage-->0.3 V <br />

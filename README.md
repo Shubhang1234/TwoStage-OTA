@@ -33,14 +33,39 @@ Fig 2: Refrence Circuit Waveform of Proposed Circuit
 ![ckt_design](https://user-images.githubusercontent.com/56774313/155832197-56baa713-0ebf-49d3-8984-d1a6bec38373.png) <br />
 Fig 3: Actual Schematic of Proposed Design
 ## Netlist <br />
-![image](https://user-images.githubusercontent.com/56774313/155613671-c956b79c-d953-4ee1-80de-1dd15a90014a.png) <br />
-Fig 4: Generated Netlist <br />
+```
+*Custom Compiler Version S-2021.09 
+*Mon Feb 28 04:47:58 2022 
+
+.global gnd! 
+******************************************************************************** 
+* Library          : wk_shubhang_ota 
+* Cell             : test1 
+* View             : schematic 
+* View Search List : hspice hspiceD cmos.sch cmos_sch schematic veriloga 
+* View Stop List   : hspice hspiceD veriloga 
+******************************************************************************** 
+.subckt test1 vin+ vin- vout 
+xm24 net6 net6 gnd! gnd! n105 w=3.5u l=500n nf=1 m=1 
+xm26 net3 net6 gnd! gnd! n105 w=3.5u l=500n nf=1 m=1 
+xm27 vout net3 gnd! gnd! n105 w=52.5u l=500n nf=15 m=1 
+xm30 net2 net2 net1 net1 p105 w=12u l=500n nf=4 m=1 
+xm29 net5 net2 net1 net1 p105 w=12u l=500n nf=4 m=1 
+xm28 vout net2 net1 net1 p105 w=77u l=500n nf=22 m=1 
+xm23 net3 vin+ net5 net5 p105 w=12u l=500n nf=4 m=1 
+xm25 net6 vin- net5 net5 p105 w=12u l=500n nf=4 m=1 
+v24 net1 gnd! dc=1 
+i27 net2 gnd! dc=2u 
+c24 vout gnd! c=1p 
+c23 net3 vout c=1p 
+.ends test1 
+``` 
 ## Actual Simulation Stimuli <br />
 Input common mode voltage-->0.3 V <br />
-Fig 5: Small signal AC fluctuation-->vin+(L) & vin-(R) <br />![MergedImages](https://user-images.githubusercontent.com/56774313/155460689-fc33f329-06f1-4d11-811d-5864c1810580.png) <br />
+Fig 4: Small signal AC fluctuation-->vin+(L) & vin-(R) <br />![MergedImages](https://user-images.githubusercontent.com/56774313/155460689-fc33f329-06f1-4d11-811d-5864c1810580.png) <br />
 ## Simulated actual waveforms <br />
 ![BODEPLOT](https://user-images.githubusercontent.com/56774313/155464974-f0aa7c86-77f1-41d7-88f1-8ec2c4e6faee.png)
-Fig 6: Actual Obtained Bode Gain & Phase Plot of the design <br />
+Fig 5: Actual Obtained Bode Gain & Phase Plot of the design <br />
 Obtained BODE PLOT indicates a DC Gain of ~53dB and Phase Margin of ~63.5° <br />
 *Side note-->By proper miller compensation this ampifier is best suited for audio signal amplification purposes.
 ## Observations <br />

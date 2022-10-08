@@ -64,22 +64,6 @@ v24 net1 gnd! dc=1
 ## Actual Simulation Stimuli <br />
 Input common mode voltage-->0.3 V <br />
 Fig 4: Small signal AC fluctuation-->vin+(L) & vin-(R) <br />![MergedImages](https://user-images.githubusercontent.com/56774313/155460689-fc33f329-06f1-4d11-811d-5864c1810580.png) <br />
-## Simulated actual waveforms <br />
-![BODEPLOT](https://user-images.githubusercontent.com/56774313/155464974-f0aa7c86-77f1-41d7-88f1-8ec2c4e6faee.png)
-Fig 5: Actual Obtained Bode Gain & Phase Plot of the design <br />
-Obtained BODE PLOT indicates a DC Gain of ~53dB and Phase Margin of ~63.5° <br />
-*Side note-->By proper miller compensation this ampifier is best suited for audio signal amplification purposes.
-## Observations <br />
-A breif contrast between targeted and actual specifications is mentioned below:
-| Specifications        | Targeted       | Actual     | Result  |
-| --------------------- |:--------------:| -------:   | :------:|      
-| DC Gain               | ~50dB          |   53.5 dB  | PASS    |  
-| GBW                   | >100kHz        |   4.11 MHz | PASS    |  
-| Supply Voltage        | ~1V            |   1V       | PASS    |  
-| Power Consumption     | <100µW         |   17.37 µW | PASS    |  
-| Phase Margin          | ~60°           |   63.5°    | PASS    |  
-| Slew rate             | >0.1 V/μs      |   ~2 V/μs  | PASS    |  
-| Area (approx)         | <100μm2        |   ~92μm2   | PASS    |  
 ## Author <br />
 Shubhang Srivastava <br />
 Student <br />

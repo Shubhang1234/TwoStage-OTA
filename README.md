@@ -66,8 +66,8 @@ Input common mode voltage-->0.3 V <br />
 Fig 4: Small signal AC fluctuation-->vin+(L) & vin-(R) <br />![MergedImages](https://user-images.githubusercontent.com/56774313/155460689-fc33f329-06f1-4d11-811d-5864c1810580.png) <br />
 ## Simulated actual waveforms <br />
 ![Screenshot (88)](https://user-images.githubusercontent.com/56774313/194772341-06c5da83-34a2-4c35-978f-015607ba6c4a.png)
-Fig 5: Actual Obtained Bode Gain & Phase Plot of the design
-Obtained BODE PLOT indicates a DC Gain of ~53dB and Phase Margin of ~63.5°
+Fig 5: Actual Obtained Bode Gain & Phase Plot of the design <br />
+Obtained BODE PLOT indicates a DC Gain of ~53dB and Phase Margin of ~63.5° <br />
 *Side note-->By proper miller compensation this ampifier is best suited for audio signal amplification purposes.
 ## Observations <br />
 ## Author <br />

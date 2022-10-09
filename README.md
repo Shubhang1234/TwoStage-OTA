@@ -70,6 +70,14 @@ Fig 5: Actual Obtained Bode Gain & Phase Plot of the design <br />
 Obtained BODE PLOT indicates a DC Gain of ~53dB and Phase Margin of ~63.5° <br />
 *Side note-->By proper miller compensation this ampifier is best suited for audio signal amplification purposes.
 ## Observations <br />
+| Specifications    | Targeted  | Actual   | Result |
+| DC Gain           | ~50dB     | 53.5dB   | PASS   |
+| GBW               | >100 kHz  | 4.11 MHz | PASS   |
+| Supply Voltage    | ~1V       | 1V       | PASS   |
+| Power Consumption | <100μW    | 17.37μW  | PASS   |
+| Phase Margin      | ~60°      | 63.5°    | PASS   |
+| Slew rate         | >0.1 V/μs | ~2 V/μs  | PASS   |
+| Area (approx)     | <100μm2   | ~92μm2   | PASS   |
 ## Author <br />
 Shubhang Srivastava <br />
 Student <br />

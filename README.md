@@ -64,6 +64,9 @@ v24 net1 gnd! dc=1
 ## Actual Simulation Stimuli <br />
 Input common mode voltage-->0.3 V <br />
 Fig 4: Small signal AC fluctuation-->vin+(L) & vin-(R) <br />![MergedImages](https://user-images.githubusercontent.com/56774313/155460689-fc33f329-06f1-4d11-811d-5864c1810580.png) <br />
+## Simulated actual waveforms <br />
+![Screenshot (88)](https://user-images.githubusercontent.com/56774313/194772270-d2d8a68d-ff4c-491b-b6dd-917908e76f59.png)
+## Observations <br />
 ## Author <br />
 Shubhang Srivastava <br />
 Student <br />
